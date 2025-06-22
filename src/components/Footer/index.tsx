@@ -11,13 +11,17 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/auroraRangers.png"
-                    alt="logo"
-                    className="w-full"
-                    width={140}
-                    height={30}
-                  />
+                  <div className="flex items-center">
+                    <Image
+                      src="/images/logo/auroraRangers.png"
+                      alt="logo"
+                      width={60}
+                      height={60}
+                    />
+                    <span className="ml-2 text-xl font-bold text-black dark:text-white">
+                      Aurora Rangers Ltd
+                    </span>
+                  </div>
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Aurora Rangers Ltd specializes in enterprise website development and business process automation. We help businesses streamline operations and create powerful digital solutions.

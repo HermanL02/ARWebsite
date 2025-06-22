@@ -49,20 +49,24 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-full max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/auroraRangers.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full"
-                />
+                <div className="flex items-center">
+                  <Image
+                    src="/images/logo/auroraRangers.png"
+                    alt="logo"
+                    width={48}
+                    height={48}
+                  />
+                  <span className="ml-2 text-xl font-bold text-black dark:text-white">
+                    Aurora Rangers Ltd
+                  </span>
+                </div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

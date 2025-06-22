@@ -28,7 +28,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -70,7 +70,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="#"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -205,7 +205,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacy-policy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy
@@ -213,7 +213,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/terms-of-service"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Service
@@ -221,7 +221,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/security"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Security
@@ -247,12 +247,12 @@ const Footer = () => {
                 <div className="text-center md:text-right">
                   <p className="text-base text-body-color dark:text-body-color-dark">
                     Designed and Developed by{" "}
-                    <a
+                    <Link
                       href="/"
                       className="text-primary hover:underline"
                     >
                       Aurora Rangers Ltd
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

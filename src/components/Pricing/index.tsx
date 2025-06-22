@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Flexible Development Packages"
+          paragraph="Choose the package that best fits your business needs. All packages include consultation, development, testing, and deployment."
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Project-Based
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,50 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Retainer
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Starter"
+            price={isMonthly ? "5,000" : "2,500"}
+            duration={isMonthly ? "project" : "mo"}
+            subtitle="Perfect for small businesses looking to establish their online presence."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Custom Website Development" status="active" />
+            <OfferList text="Responsive Design" status="active" />
+            <OfferList text="Basic SEO Optimization" status="active" />
+            <OfferList text="Content Management System" status="active" />
+            <OfferList text="3 Months Support" status="active" />
+            <OfferList text="Advanced Analytics" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Professional"
+            price={isMonthly ? "15,000" : "5,000"}
+            duration={isMonthly ? "project" : "mo"}
+            subtitle="Ideal for growing businesses needing advanced features and automation."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Enterprise Website Development" status="active" />
+            <OfferList text="Business Process Automation" status="active" />
+            <OfferList text="API Integration" status="active" />
+            <OfferList text="Advanced Security Features" status="active" />
+            <OfferList text="6 Months Support" status="active" />
+            <OfferList text="Performance Optimization" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Enterprise"
+            price={isMonthly ? "50,000" : "15,000"}
+            duration={isMonthly ? "project" : "mo"}
+            subtitle="Comprehensive solutions for large organizations with complex requirements."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Full-Stack Development" status="active" />
+            <OfferList text="Custom Automation Solutions" status="active" />
+            <OfferList text="Cloud Infrastructure Setup" status="active" />
+            <OfferList text="24/7 Monitoring & Support" status="active" />
+            <OfferList text="Security Audits & Compliance" status="active" />
+            <OfferList text="Dedicated Project Manager" status="active" />
           </PricingBox>
         </div>
       </div>

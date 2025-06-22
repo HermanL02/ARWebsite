@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sarah Johnson",
+    designation: "CTO @TechCorp Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "TechFlow transformed our entire business process. Their automation solutions saved us 40% in operational costs and improved our efficiency dramatically. The team's expertise in enterprise development is unmatched.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Michael Chen",
+    designation: "Operations Director @Global Manufacturing",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with TechFlow was a game-changer for our company. They built a custom enterprise website that perfectly integrates with our existing systems. The automation features have streamlined our workflow significantly.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Emily Rodriguez",
+    designation: "CEO @InnovateStartup",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The team at TechFlow delivered exactly what we needed and more. Their attention to detail, technical expertise, and commitment to our success made all the difference. Highly recommended for any enterprise project.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Clients Say"
+          paragraph="Don't just take our word for it. Here's what our clients have to say about working with us on their enterprise solutions and automation projects."
           center
         />
 

@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "The Future of Enterprise Automation in 2024",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Discover how AI and machine learning are revolutionizing business process automation, and what this means for enterprise efficiency and cost reduction.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Herman Liang",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Founder & Software Developer",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["automation"],
+    publishDate: "2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Building Scalable Enterprise Websites: Best Practices",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Learn the essential strategies and technologies for creating enterprise websites that can handle high traffic and complex business requirements.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Hengbo Huang",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Co-Founder & Full Stack Developer",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["development"],
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "API Integration Strategies for Modern Businesses",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Explore effective approaches to API development and integration that can streamline your business operations and improve system connectivity.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Zhida Liang",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Co-Founder & COO",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["technology"],
+    publishDate: "2024",
   },
 ];
 export default blogData;

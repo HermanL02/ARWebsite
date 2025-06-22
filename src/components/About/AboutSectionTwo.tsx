@@ -9,17 +9,18 @@ const AboutSectionTwo = () => {
       image: "/images/about/yiqunLiang.png"
     },
     {
+      name: "Hengbo Huang",
+      role: "Co-Founder & Full Stack Developer",
+      description: "Expert in modern web technologies and automation solutions. Hengbo focuses on creating efficient, user-friendly applications that solve real business challenges.",
+      image: "/images/testimonials/author-03.png"
+    },
+    {
       name: "Zhida Liang",
       role: "Co-Founder & COO",
       description: "Driving operational excellence and business strategy. Zhida brings extensive experience in business process optimization and client relationship management.",
       image: "/images/testimonials/author-02.png"
     },
-    {
-      name: "Hengbo Huang",
-      role: "Co-Founder & Full Stack Developer",
-      description: "Expert in modern web technologies and automation solutions. Hengbo focuses on creating efficient, user-friendly applications that solve real business challenges.",
-      image: "/images/testimonials/author-03.png"
-    }
+
   ];
 
   return (

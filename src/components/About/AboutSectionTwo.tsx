@@ -16,7 +16,7 @@ const AboutSectionTwo = () => {
     },
     {
       name: "Zhida Liang",
-      role: "Co-Founder & COO",
+      role: "Co-Founder",
       description: "Driving operational excellence and business strategy. Zhida brings extensive experience in business process optimization and client relationship management.",
       image: "/images/testimonials/author-02.png"
     },

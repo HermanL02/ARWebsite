@@ -37,7 +37,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Zhida Liang",
-      image: "/images/blog/author-03.png",
+      image: "/zhidaLiang.jpg",
       designation: "Co-Founder & COO",
     },
     tags: ["technology"],

@@ -4,7 +4,7 @@ import ClientsSection from "@/components/Clients";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Clients | Aurora Rangers Ltd - Enterprise Development Team",
+  title: "Our Clients | Aurora Rangers - Enterprise Development Team",
   description: "Discover how we've helped leading companies like GSuite Toronto and ALM Construction Group optimize their business processes through automation solutions.",
   // other metadata
 };

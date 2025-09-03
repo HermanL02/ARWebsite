@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Aurora Rangers Ltd - Enterprise Development Team",
+  title: "About Us | Aurora Rangers - Enterprise Development Team",
   description: "Meet our team of experts specializing in enterprise website development and business process automation. Learn about our founders and their expertise.",
   // other metadata
 };

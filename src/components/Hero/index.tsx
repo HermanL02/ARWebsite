@@ -14,25 +14,25 @@ const Hero = () => {
                 <div className="mb-6">
                   <h2 className="text-xl font-semibold text-primary mb-2">Welcome to</h2>
                   <h1 className="text-4xl font-bold text-black dark:text-white sm:text-5xl md:text-6xl mb-4">
-                    Aurora Rangers Ltd
+                    Aurora Rangers
                   </h1>
                   <p className="text-lg text-body-color dark:text-body-color-dark italic">
-                    "Guiding Your Digital Journey Through the Northern Lights of Innovation"
+                    &ldquo;Guiding Your Digital Journey Through the Northern Lights of Innovation&rdquo;
                   </p>
                 </div>
                 
                 <div className="mb-8 text-left bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-black dark:text-white mb-3">
-                    Why "Aurora Rangers"?
+                    Why &ldquo;Aurora Rangers&rdquo;?
                   </h3>
                   <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark mb-4">
                     Just as the Aurora Borealis illuminates the northern skies with breathtaking beauty and guides travelers through the darkness, 
                     <strong className="text-primary"> Aurora Rangers</strong> serves as your digital compass in the ever-evolving landscape of technology. 
-                    Our "Rangers" are expert developers and consultants who navigate complex technical challenges, ensuring your business reaches its destination 
+                    Our &ldquo;Rangers&rdquo; are expert developers and consultants who navigate complex technical challenges, ensuring your business reaches its destination 
                     with cutting-edge solutions and unwavering reliability.
                   </p>
                   <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                    Like the aurora's ethereal dance across the night sky, our software solutions are both <strong className="text-primary">beautiful and functional</strong>, 
+                    Like the aurora&apos;s ethereal dance across the night sky, our software solutions are both <strong className="text-primary">beautiful and functional</strong>, 
                     creating digital experiences that captivate users while driving measurable business results.
                   </p>
                 </div>

@@ -64,7 +64,7 @@ const Header = () => {
                     height={48}
                   />
                   <span className="ml-2 text-xl font-bold text-black dark:text-white">
-                    Aurora Rangers Ltd
+                    Aurora Rangers
                   </span>
                 </div>
               </Link>

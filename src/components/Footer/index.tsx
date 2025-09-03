@@ -19,12 +19,12 @@ const Footer = () => {
                       height={60}
                     />
                     <span className="ml-2 text-xl font-bold text-black dark:text-white">
-                      Aurora Rangers Ltd
+                      Aurora Rangers
                     </span>
                   </div>
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Aurora Rangers Ltd specializes in enterprise website development and business process automation. We help businesses streamline operations and create powerful digital solutions.
+                  Aurora Rangers specializes in enterprise website development and business process automation. We help businesses streamline operations and create powerful digital solutions.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -239,7 +239,7 @@ const Footer = () => {
               <div className="w-full px-4 md:w-1/2 lg:w-1/2">
                 <div className="text-center md:text-left">
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    &copy; 2024 Aurora Rangers Ltd. All rights reserved.
+                    &copy; 2024 Aurora Rangers. All rights reserved.
                   </p>
                 </div>
               </div>
@@ -251,7 +251,7 @@ const Footer = () => {
                       href="/"
                       className="text-primary hover:underline"
                     >
-                      Aurora Rangers Ltd
+                      Aurora Rangers
                     </Link>
                   </p>
                 </div>

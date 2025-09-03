@@ -22,16 +22,16 @@ const Clients = () => {
           {/* Call to Action */}
           <div className="mt-16 text-center">
             <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">
-              想要成为我们的下一个成功案例？
+              Want to become our next success story?
             </h2>
             <p className="mb-8 text-body-color dark:text-body-color-dark">
-              联系我们，了解如何为您的企业提供定制化的自动化解决方案
+              Contact us to learn how we can provide customized automation solutions for your business
             </p>
             <a
               href="/contact"
               className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
             >
-              联系我们
+              Contact Us
             </a>
           </div>
         </div>

@@ -18,10 +18,10 @@ const Contact = () => {
               </p>
               <div className="text-center">
                 <a 
-                  href="mailto:hermanyiqunliang@gmail.com"
+                  href="mailto:Hermanyiqunliang@gmail.com"
                   className="inline-flex items-center justify-center rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
                 >
-                  hermanyiqunliang@gmail.com
+                  Hermanyiqunliang@gmail.com
                 </a>
               </div>
             </div>

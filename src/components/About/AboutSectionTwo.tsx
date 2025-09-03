@@ -9,7 +9,7 @@ const AboutSectionTwo = () => {
       image: "/images/about/yiqunLiang.png"
     },
     {
-      name: "Christina Huang",
+      name: "Hengbo Huang",
       role: "Co-Founder & Full Stack Developer",
       description: "Expert in modern web technologies and automation solutions. Hengbo focuses on creating efficient, user-friendly applications that solve real business challenges.",
       image: "/images/about/hengboHuang.jpg"

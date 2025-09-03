@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aurora Rangers Ltd - Enterprise Website Development & Business Process Automation",
+  title: "Aurora Rangers - Enterprise Website Development & Business Process Automation",
   description: "Specialized in custom enterprise website development and business process automation. We help businesses streamline operations and create powerful digital solutions.",
   // other metadata
 };

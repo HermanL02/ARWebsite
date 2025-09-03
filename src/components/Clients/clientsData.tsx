@@ -9,7 +9,7 @@ const clientsData: Client[] = [
     benefit: "Increased Efficiency",
     image: "/images/testimonials/author-01.png",
     details: "Providing comprehensive enterprise automation process services for GSuite Toronto, helping this top Toronto homestay company optimize operational processes, enhance customer service efficiency, and achieve business growth.",
-    demoWebsite: "https://hotel-order-management.vercel.app"
+    demoWebsite: "https://livesuitely.shop"
   },
   {
     id: 2,

@@ -8,14 +8,14 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="text-body-color mb-5 flex items-center text-lg font-medium">
-      <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
+  const services = [
+    "Professional Web Design",
+    "Search Engine Optimization",
+    "E-Commerce Development",
+    "Digital Marketing Services",
+    "Local SEO for Halifax",
+    "Ongoing Support & Training"
+  ];
 
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Transforming Enterprises Through Technology"
-                paragraph="We specialize in creating custom enterprise solutions that streamline operations, enhance productivity, and drive business growth. Our team combines deep technical expertise with business acumen to deliver solutions that truly make a difference."
+                title="Your Local Halifax Web Development Partner"
+                paragraph="Based in Halifax, Nova Scotia, we're a dedicated team of web developers and digital marketing specialists passionate about helping small businesses succeed online. We understand the unique challenges local businesses face and create affordable, effective solutions that drive real results."
                 mb="44px"
               />
 
@@ -33,19 +33,21 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Custom Enterprise Websites" />
-                    <List text="Business Process Automation" />
-                    <List text="API Integration & Development" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Cloud Solutions" />
-                    <List text="24/7 Support & Maintenance" />
-                    <List text="Security & Compliance" />
-                  </div>
-                </div>
+                <ul className="mx-[-12px] flex flex-wrap">
+                  {services.map((service, index) => (
+                    <li
+                      key={index}
+                      className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2"
+                    >
+                      <p className="text-body-color mb-5 flex items-center text-lg font-medium">
+                        <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
+                          {checkIcon}
+                        </span>
+                        {service}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 

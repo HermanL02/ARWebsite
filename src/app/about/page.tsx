@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Aurora Rangers - Enterprise Development Team",
-  description: "Meet our team of experts specializing in enterprise website development and business process automation. Learn about our founders and their expertise.",
+  title: "About Us | Aurora Software Solutions - Halifax Web Development Team",
+  description: "Meet our Halifax-based team of web developers and digital marketing experts. We help small businesses across Nova Scotia succeed online with professional websites, SEO, and marketing services.",
   // other metadata
 };
 
@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Us"
-        description="We are a team of passionate developers and business process experts dedicated to transforming how enterprises operate through innovative technology solutions."
+        description="We're a Halifax-based web development company passionate about helping small businesses in Nova Scotia grow their online presence through professional websites, SEO, and digital marketing."
       />
       <AboutSectionTwo />
       <AboutSectionOne />

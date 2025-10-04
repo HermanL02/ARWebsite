@@ -13,36 +13,31 @@ const Hero = () => {
               <div className="mx-auto max-w-[800px] text-center">
                 <div className="mb-6">
                   <h1 className="text-4xl font-bold text-black dark:text-white sm:text-5xl md:text-6xl mb-4">
-                    Aurora Rangers
+                    Aurora Software Solutions
                   </h1>
                   <h2 className="text-2xl font-semibold text-primary mb-3 sm:text-3xl">
-                    Business Websites, Software & Automation Solutions
+                    Professional Web Development in Halifax
                   </h2>
-                  <p className="text-lg text-body-color dark:text-body-color-dark italic">
-                    &ldquo;Guiding Your Digital Journey Through the Northern Lights of Innovation&rdquo;
+                  <p className="text-lg text-body-color dark:text-body-color-dark">
+                    Helping small businesses in Halifax and Nova Scotia grow with custom web design, SEO, and digital marketing solutions.
                   </p>
                 </div>
 
-                <h2 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Enterprise Solutions That Illuminate Your Business
-                </h2>
-                <p className="mb-12 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  From custom enterprise websites to intelligent business process automation, we transform your digital challenges into opportunities.
-                  Our expert team delivers scalable, secure, and innovative solutions that drive growth, efficiency, and competitive advantage.
-                </p>
+       
+         
                 
                 <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                   <div className="bg-primary/10 dark:bg-primary/20 p-4 rounded-lg">
-                    <h4 className="font-semibold text-primary mb-2">AWS & Azure Solutions</h4>
-                    <p className="text-sm text-body-color dark:text-body-color-dark">Expert cloud infrastructure and deployment on leading platforms</p>
+                    <h4 className="font-semibold text-primary mb-2">Web Design & Development</h4>
+                    <p className="text-sm text-body-color dark:text-body-color-dark">Beautiful, responsive websites that work on all devices</p>
                   </div>
                   <div className="bg-primary/10 dark:bg-primary/20 p-4 rounded-lg">
-                    <h4 className="font-semibold text-primary mb-2">Custom Development</h4>
-                    <p className="text-sm text-body-color dark:text-body-color-dark">Tailored enterprise solutions that fit your unique business needs</p>
+                    <h4 className="font-semibold text-primary mb-2">SEO Services</h4>
+                    <p className="text-sm text-body-color dark:text-body-color-dark">Get found on Google and attract more local customers</p>
                   </div>
                   <div className="bg-primary/10 dark:bg-primary/20 p-4 rounded-lg">
-                    <h4 className="font-semibold text-primary mb-2">Process Automation</h4>
-                    <p className="text-sm text-body-color dark:text-body-color-dark">Streamline operations and boost productivity</p>
+                    <h4 className="font-semibold text-primary mb-2">Digital Marketing</h4>
+                    <p className="text-sm text-body-color dark:text-body-color-dark">Grow your online presence and reach more customers</p>
                   </div>
                 </div>
 
@@ -53,35 +48,31 @@ const Hero = () => {
                     rel="noopener noreferrer"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Book a Consultation
+                    Get a Free Consultation
                   </Link>
                   <Link
                     href="/contact"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-xs border-2 border-primary bg-transparent px-8 py-4 text-base font-semibold text-primary duration-300 ease-in-out hover:bg-primary hover:text-white dark:border-primary dark:text-primary"
                   >
                     Contact Us
                   </Link>
                   <Link
                     href="/about"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-xs border-2 border-body-color bg-transparent px-8 py-4 text-base font-semibold text-body-color duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white dark:border-white/30 dark:text-white dark:hover:border-primary"
                   >
-                    Meet Our Rangers
+                    Learn More
                   </Link>
                 </div>
 
                 <div className="mt-12 text-left bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-black dark:text-white mb-3">
-                    Why &ldquo;Aurora Rangers&rdquo;?
+                    Why Choose Aurora Software Solutions?
                   </h3>
                   <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark mb-4">
-                    Just as the Aurora Borealis illuminates the northern skies with breathtaking beauty and guides travelers through the darkness,
-                    <strong className="text-primary"> Aurora Rangers</strong> serves as your digital compass in the ever-evolving landscape of technology.
-                    Our &ldquo;Rangers&rdquo; are expert developers and consultants who navigate complex technical challenges, ensuring your business reaches its destination
-                    with cutting-edge solutions and unwavering reliability.
+                    As a local Halifax web development company, we understand the unique challenges small businesses face. We combine technical expertise with local market knowledge to create websites and marketing strategies that deliver real results for your business.
                   </p>
                   <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                    Like the aurora&apos;s ethereal dance across the night sky, our software solutions are both <strong className="text-primary">beautiful and functional</strong>,
-                    creating digital experiences that captivate users while driving measurable business results.
+                    Whether you need a new website, better search engine rankings, or help growing your online presence, we&apos;re here to guide you every step of the way. Our affordable solutions are designed specifically for small businesses in Halifax and across Nova Scotia.
                   </p>
                 </div>
               </div>

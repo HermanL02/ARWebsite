@@ -10,7 +10,7 @@ const Brands = () => {
         <div className="mb-12 text-center">
           <SectionTitle
             title="Trusted Technology Partners"
-            paragraph="We work with leading technology platforms and tools to deliver robust, scalable solutions for our enterprise clients."
+            paragraph="We work with industry-leading platforms and technologies to build modern, reliable websites and digital marketing solutions for small businesses in Halifax."
             center
             mb="60px"
           />

@@ -17,11 +17,11 @@ const Contact = () => {
                 Ready to start your project? Contact us directly via email.
               </p>
               <div className="text-center">
-                <a 
-                  href="mailto:Hermanyiqunliang@gmail.com"
+                <a
+                  href="mailto:info@aurorarangers.ca"
                   className="inline-flex items-center justify-center rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
                 >
-                  Hermanyiqunliang@gmail.com
+                  info@aurorarangers.ca
                 </a>
               </div>
             </div>

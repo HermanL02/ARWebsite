@@ -19,12 +19,18 @@ const Footer = () => {
                       height={60}
                     />
                     <span className="ml-2 text-xl font-bold text-black dark:text-white">
-                      Aurora Rangers
+                      Aurora Software Solutions
                     </span>
                   </div>
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Aurora Rangers specializes in enterprise website development and business process automation. We help businesses streamline operations and create powerful digital solutions.
+                  Halifax-based web development company specializing in professional websites, SEO, and digital marketing for small businesses across Nova Scotia.
+                </p>
+                <p className="mb-4 text-base text-body-color dark:text-body-color-dark">
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:info@aurorarangers.ca" className="text-primary hover:underline">
+                    info@aurorarangers.ca
+                  </a>
                 </p>
                 <div className="flex items-center">
                   <a
@@ -113,34 +119,34 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/services/enterprise-websites"
+                      href="/#features"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Enterprise Websites
+                      Web Design
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/automation"
+                      href="/#features"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Process Automation
+                      SEO Services
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/api-development"
+                      href="/#features"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      API Development
+                      Digital Marketing
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services/cloud-solutions"
+                      href="/#features"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Cloud Solutions
+                      E-Commerce
                     </Link>
                   </li>
                 </ul>
@@ -239,20 +245,14 @@ const Footer = () => {
               <div className="w-full px-4 md:w-1/2 lg:w-1/2">
                 <div className="text-center md:text-left">
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    &copy; 2024 Aurora Rangers. All rights reserved.
+                    &copy; 2024 Aurora Software Solutions. All rights reserved.
                   </p>
                 </div>
               </div>
               <div className="w-full px-4 md:w-1/2 lg:w-1/2">
                 <div className="text-center md:text-right">
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    Designed and Developed by{" "}
-                    <Link
-                      href="/"
-                      className="text-primary hover:underline"
-                    >
-                      Aurora Rangers
-                    </Link>
+                    Built with Next.js & Deployed on Vercel
                   </p>
                 </div>
               </div>
